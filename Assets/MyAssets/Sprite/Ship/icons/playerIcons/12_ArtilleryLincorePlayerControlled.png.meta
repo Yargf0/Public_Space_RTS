@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 02f7dd9712846804da859df87c3fdb72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7592215058014269438
+    second: 12_ArtilleryLincorePlayerControlled_0
+  - first:
+      213: -3786793352915902198
+    second: 12_ArtilleryLincorePlayerControlled_1
+  - first:
+      213: -3959408518417186196
+    second: 12_ArtilleryLincorePlayerControlled_2
+  - first:
+      213: -152781895057833773
+    second: 12_ArtilleryLincorePlayerControlled_3
+  - first:
+      213: -518485361513704116
+    second: 12_ArtilleryLincorePlayerControlled_4
+  - first:
+      213: -5200709341699109919
+    second: 12_ArtilleryLincorePlayerControlled_5
+  - first:
+      213: 8836121941922411878
+    second: 12_ArtilleryLincorePlayerControlled_6
+  - first:
+      213: 6062330261377041991
+    second: 12_ArtilleryLincorePlayerControlled_7
+  - first:
+      213: 6738163805587685546
+    second: 12_ArtilleryLincorePlayerControlled_8
+  - first:
+      213: 7438061316658075122
+    second: 12_ArtilleryLincorePlayerControlled_9
+  - first:
+      213: -3570820543130447523
+    second: 12_ArtilleryLincorePlayerControlled_10
+  - first:
+      213: 6186969318091586878
+    second: 12_ArtilleryLincorePlayerControlled_11
+  - first:
+      213: -9071708708874037954
+    second: 12_ArtilleryLincorePlayerControlled_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 967
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20010b841a803a690800000000000000
+      internalID: -7592215058014269438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 983
+        width: 704
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0123a1428b927bc0800000000000000
+      internalID: -3786793352915902198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_2
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 967
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62861b2eea5d09c0800000000000000
+      internalID: -3959408518417186196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 733
+        width: 16
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d087f80da531edf0800000000000000
+      internalID: -152781895057833773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 872
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c455cbd8f48fdc8f0800000000000000
+      internalID: -518485361513704116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 55
+        width: 882
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb08f3886e53d7b0800000000000000
+      internalID: -5200709341699109919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_6
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 872
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665f154271630aa70800000000000000
+      internalID: 8836121941922411878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_7
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 733
+        width: 16
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ca7cc049b12450800000000000000
+      internalID: 6062330261377041991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 683
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0c276e744c28d50800000000000000
+      internalID: 6738163805587685546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_9
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 683
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f59af4eb5d493760800000000000000
+      internalID: 7438061316658075122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 41
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51da0292a5e17ec0800000000000000
+      internalID: -3570820543130447523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 25
+        width: 296
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3df61990d78cd550800000000000000
+      internalID: 6186969318091586878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_ArtilleryLincorePlayerControlled_12
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 41
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35deb54ef0da1280800000000000000
+      internalID: -9071708708874037954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      12_ArtilleryLincorePlayerControlled_0: -7592215058014269438
+      12_ArtilleryLincorePlayerControlled_1: -3786793352915902198
+      12_ArtilleryLincorePlayerControlled_10: -3570820543130447523
+      12_ArtilleryLincorePlayerControlled_11: 6186969318091586878
+      12_ArtilleryLincorePlayerControlled_12: -9071708708874037954
+      12_ArtilleryLincorePlayerControlled_2: -3959408518417186196
+      12_ArtilleryLincorePlayerControlled_3: -152781895057833773
+      12_ArtilleryLincorePlayerControlled_4: -518485361513704116
+      12_ArtilleryLincorePlayerControlled_5: -5200709341699109919
+      12_ArtilleryLincorePlayerControlled_6: 8836121941922411878
+      12_ArtilleryLincorePlayerControlled_7: 6062330261377041991
+      12_ArtilleryLincorePlayerControlled_8: 6738163805587685546
+      12_ArtilleryLincorePlayerControlled_9: 7438061316658075122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

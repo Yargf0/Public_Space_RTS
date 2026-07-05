@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerEliteTaskForce
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 1
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 50.0
+  chaseDistance: 60.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Vanguard L
+    spawnOffset: {x: -16, y: 10}
+    squadPlan: {fileID: 11400000, guid: 1e56815524f632380d56f0416f5bfb81, type: 2}
+  - label: Vanguard R
+    spawnOffset: {x: 16, y: 10}
+    squadPlan: {fileID: 11400000, guid: 1e56815524f632380d56f0416f5bfb81, type: 2}
+  - label: Strike
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: d316a3725b7e378ee898e390457e1659, type: 2}
+  - label: Bombers
+    spawnOffset: {x: 0, y: -8}
+    squadPlan: {fileID: 11400000, guid: f5a8a859f9382d0cf7008463b5939b77, type: 2}
+  - label: Heavy
+    spawnOffset: {x: 0, y: -16}
+    squadPlan: {fileID: 11400000, guid: 317342a3466417688eaf826c27082bd1, type: 2}

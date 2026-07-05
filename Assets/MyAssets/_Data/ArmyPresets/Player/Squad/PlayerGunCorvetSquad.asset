@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0303a84ff6816ad47834e3796dcfc0bd, type: 3}
+  m_Name: PlayerGunCorvetSquad
+  m_EditorClassIdentifier: Assembly-CSharp::SquadPlan
+  label: Interceptor
+  role: 0
+  targeting:
+    allowedShipSizes: 7
+    priorities:
+      small: 2
+      medium: 1
+      big: 0
+      rocketSmall: 1
+      rocketBig: 1
+  composition:
+  - prefabId: 1
+    prefab: {fileID: 3372544179987758199, guid: 21683f31f948d1b42b76cae51b7bdfa8, type: 3}
+    count: 5
+    memberPrefabIndex: 0

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerBattle3_CombinedArms
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 45.0
+  leashDistance: 65.0
+  chaseDistance: 85.0
+  targetSearchInterval: 0.4
+  targetMemoryDuration: 1.5
+  regroupRadius: 10.0
+  guardRadius: 30.0
+  squads:
+  - label: Vanguard Int 1
+    spawnOffset: {x: -22.0, y: -35.3}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 2
+    spawnOffset: {x: 0.0, y: -35.0}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 3
+    spawnOffset: {x: 22.0, y: -34.7}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Ftr 1
+    spawnOffset: {x: -22.0, y: -25.0}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 2
+    spawnOffset: {x: 0.0, y: -24.7}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 3
+    spawnOffset: {x: 22.0, y: -24.4}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Corvette 1
+    spawnOffset: {x: -27.0, y: -9.7}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 2
+    spawnOffset: {x: -9.0, y: -9.4}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 3
+    spawnOffset: {x: 9.0, y: -10.6}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 4
+    spawnOffset: {x: 27.0, y: -10.3}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Missile 1
+    spawnOffset: {x: -22.0, y: 0.6}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 2
+    spawnOffset: {x: 0.0, y: -0.6}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 3
+    spawnOffset: {x: 22.0, y: -0.3}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Bomber 1
+    spawnOffset: {x: -13.0, y: 11.4}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Bomber 2
+    spawnOffset: {x: 13.0, y: 11.7}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Laser 1
+    spawnOffset: {x: -22.0, y: 21.7}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 2
+    spawnOffset: {x: 0.0, y: 22.0}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 3
+    spawnOffset: {x: 22.0, y: 22.3}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Artillery 1
+    spawnOffset: {x: -14.0, y: 32.0}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Artillery 2
+    spawnOffset: {x: 14.0, y: 32.3}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Carrier 1
+    spawnOffset: {x: -15.0, y: 42.3}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Carrier 2
+    spawnOffset: {x: 15.0, y: 42.6}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Support 1
+    spawnOffset: {x: -22.0, y: 36.6}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 2
+    spawnOffset: {x: 0.0, y: 35.4}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 3
+    spawnOffset: {x: 22.0, y: 35.7}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Flank L 1
+    spawnOffset: {x: -50, y: -20}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 2
+    spawnOffset: {x: -50, y: -5}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 3
+    spawnOffset: {x: -50, y: 10}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 1
+    spawnOffset: {x: 50, y: -20}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 2
+    spawnOffset: {x: 50, y: -5}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 3
+    spawnOffset: {x: 50, y: 10}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flagship 1
+    spawnOffset: {x: 0, y: 50}
+    squadPlan: {fileID: 11400000, guid: 6fe63f3e9e5b23375f5a692278dfe2a7, type: 2}

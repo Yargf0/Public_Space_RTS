@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: bf1b7f02936528442a2ea9fca2bbd64e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5172280771422658026
+    second: 10_EnergyProducerPlayerControlled_0
+  - first:
+      213: -2253272398426140913
+    second: 10_EnergyProducerPlayerControlled_1
+  - first:
+      213: -9012822205716643421
+    second: 10_EnergyProducerPlayerControlled_2
+  - first:
+      213: 2836080365863741328
+    second: 10_EnergyProducerPlayerControlled_3
+  - first:
+      213: -8273344116499467292
+    second: 10_EnergyProducerPlayerControlled_4
+  - first:
+      213: -7873030268772431226
+    second: 10_EnergyProducerPlayerControlled_5
+  - first:
+      213: 3668796677592784031
+    second: 10_EnergyProducerPlayerControlled_6
+  - first:
+      213: 187878029770493580
+    second: 10_EnergyProducerPlayerControlled_7
+  - first:
+      213: 6027875823752780958
+    second: 10_EnergyProducerPlayerControlled_8
+  - first:
+      213: 8639237174656788392
+    second: 10_EnergyProducerPlayerControlled_9
+  - first:
+      213: -9013113833668059347
+    second: 10_EnergyProducerPlayerControlled_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_0
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 967
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612e4c4da0e5838b0800000000000000
+      internalID: -5172280771422658026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 983
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f0e9521b4cab0e0800000000000000
+      internalID: -2253272398426140913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 967
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1c184b4f50ce280800000000000000
+      internalID: -9012822205716643421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 265
+        width: 16
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097a4c90118cb5720800000000000000
+      internalID: 2836080365863741328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 747
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e33b7f2c5d2f2d80800000000000000
+      internalID: -8273344116499467292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 55
+        width: 783
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68acbe30fa06db290800000000000000
+      internalID: -7873030268772431226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_6
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 265
+        width: 16
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c1d01e32f2ae230800000000000000
+      internalID: 3668796677592784031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 251
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e0299921a7b9200800000000000000
+      internalID: 187878029770493580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 41
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c13f8ef1157a350800000000000000
+      internalID: 6027875823752780958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_9
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 25
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a764cd007cb4e770800000000000000
+      internalID: 8639237174656788392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_EnergyProducerPlayerControlled_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 41
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f5e08c8bcfae280800000000000000
+      internalID: -9013113833668059347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      10_EnergyProducerPlayerControlled_0: -5172280771422658026
+      10_EnergyProducerPlayerControlled_1: -2253272398426140913
+      10_EnergyProducerPlayerControlled_10: -9013113833668059347
+      10_EnergyProducerPlayerControlled_2: -9012822205716643421
+      10_EnergyProducerPlayerControlled_3: 2836080365863741328
+      10_EnergyProducerPlayerControlled_4: -8273344116499467292
+      10_EnergyProducerPlayerControlled_5: -7873030268772431226
+      10_EnergyProducerPlayerControlled_6: 3668796677592784031
+      10_EnergyProducerPlayerControlled_7: 187878029770493580
+      10_EnergyProducerPlayerControlled_8: 6027875823752780958
+      10_EnergyProducerPlayerControlled_9: 8639237174656788392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

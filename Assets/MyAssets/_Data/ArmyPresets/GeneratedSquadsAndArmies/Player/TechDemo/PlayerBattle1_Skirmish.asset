@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerBattle1_Skirmish
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 35.0
+  leashDistance: 40.0
+  chaseDistance: 50.0
+  targetSearchInterval: 0.3
+  targetMemoryDuration: 1.0
+  regroupRadius: 6.0
+  guardRadius: 15.0
+  squads:
+  - label: Vanguard
+    spawnOffset: {x: -10, y: -8}
+    squadPlan: {fileID: 11400000, guid: 3dc208a657201020cdf6743b06ecf003, type: 2}
+  - label: Strike
+    spawnOffset: {x: 10, y: -6}
+    squadPlan: {fileID: 11400000, guid: 7ed9e186576e5dae701b6d5584543091, type: 2}
+  - label: Bombers
+    spawnOffset: {x: 0, y: 2}
+    squadPlan: {fileID: 11400000, guid: d4ba5898b07847b8689f43261831d79b, type: 2}
+  - label: Support
+    spawnOffset: {x: 0, y: 8}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}

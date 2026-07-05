@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerBalancedFleet
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 50.0
+  chaseDistance: 60.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Fighters L
+    spawnOffset: {x: -14, y: 6}
+    squadPlan: {fileID: 11400000, guid: 3dc208a657201020cdf6743b06ecf003, type: 2}
+  - label: Fighters R
+    spawnOffset: {x: 14, y: 6}
+    squadPlan: {fileID: 11400000, guid: 3dc208a657201020cdf6743b06ecf003, type: 2}
+  - label: Corvettes
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: 7ed9e186576e5dae701b6d5584543091, type: 2}
+  - label: Frigates
+    spawnOffset: {x: 0, y: -8}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Support
+    spawnOffset: {x: 0, y: -14}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}

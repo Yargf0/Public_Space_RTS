@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ef287677cdf4e42944e733fd5b747f, type: 3}
+  m_Name: ShipCatalogAsset
+  m_EditorClassIdentifier: Assembly-CSharp::ShipCatalogAsset
+  ships:
+  - id: 1
+    Name: Interceptor
+    ShipType: 0
+    ProductionTab: 0
+    productKind: 1
+    Cost:
+      Energy: 80
+      Mineral: 50
+      Gas: 0
+    BuildTime: 6
+    prefab: {fileID: 3372544179987758199, guid: f0cfc79467a88d3478e1d0fa5db40848, type: 3}
+    squadPlan: {fileID: 11400000, guid: b3b95b627fcc9eb45b3859d646c0eade, type: 2}
+    Icon: {fileID: 21300000, guid: b2d71a38853f33f48b2efa426fc63d34, type: 3}
+  - id: 2
+    Name: Fighter
+    ShipType: 1
+    ProductionTab: 0
+    productKind: 1
+    Cost:
+      Energy: 120
+      Mineral: 75
+      Gas: 0
+    BuildTime: 8
+    prefab: {fileID: 8128098036123934953, guid: d1f9f5400328d644a9a9f26a61b03942, type: 3}
+    squadPlan: {fileID: 11400000, guid: 462fd7b4403ae214dbc34ca444e085b1, type: 2}
+    Icon: {fileID: 21300000, guid: 6bdacb0f5448c88449786a7ace6b5938, type: 3}
+  - id: 3
+    Name: Bomber
+    ShipType: 0
+    ProductionTab: 0
+    productKind: 0
+    Cost:
+      Energy: 160
+      Mineral: 110
+      Gas: 10
+    BuildTime: 10
+    prefab: {fileID: 3372544179987758199, guid: b8e03e8bb1d0cd34b9ea28f0c458abe1, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 2a8c90446fd63c64da4df7f30d7cbd3e, type: 3}
+  - id: 4
+    Name: GunCorvette
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 220
+      Mineral: 150
+      Gas: 20
+    BuildTime: 12
+    prefab: {fileID: 3372544179987758199, guid: 21683f31f948d1b42b76cae51b7bdfa8, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 457855852dcb79e4083c532fe8171f20, type: 3}
+  - id: 5
+    Name: MissileCorvette
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 300
+      Mineral: 220
+      Gas: 40
+    BuildTime: 15
+    prefab: {fileID: 3372544179987758199, guid: b9d23c337c17c3a428f7b357cb923d89, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 91bd4063e48e99d4cb5adaf4e2572356, type: 3}
+  - id: 6
+    Name: LaserFrigate
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 280
+      Mineral: 240
+      Gas: 50
+    BuildTime: 15
+    prefab: {fileID: 3372544179987758199, guid: c208469693f132c479e6e6d64c5a5572, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 0a53fa8590511324a9c59fe9774b9911, type: 3}
+  - id: 7
+    Name: SupportFrigate
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 260
+      Mineral: 180
+      Gas: 60
+    BuildTime: 14
+    prefab: {fileID: 3372544179987758199, guid: 6c43290cbe1fbcd468faf88c8fb2f698, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 63aad04dfee3de041b7d8c6f74cf1243, type: 3}
+  - id: 8
+    Name: Carrier
+    ShipType: 0
+    ProductionTab: 2
+    productKind: 0
+    Cost:
+      Energy: 420
+      Mineral: 320
+      Gas: 80
+    BuildTime: 18
+    prefab: {fileID: 3372544179987758199, guid: 2d6f1087658f3d84389d8187c829eb83, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: f5cc3c8da6ee72542baf4b70251d8aca, type: 3}
+  - id: 9
+    Name: CritticalShip
+    ShipType: 0
+    ProductionTab: 2
+    productKind: 0
+    Cost:
+      Energy: 520
+      Mineral: 420
+      Gas: 120
+    BuildTime: 20
+    prefab: {fileID: 3372544179987758199, guid: f2322edf3db1c8142867fec8814ce852, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: f6868d97acd2e5444b65f1d748370de1, type: 3}
+  - id: 10
+    Name: EnergyProducer
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 520
+      Mineral: 420
+      Gas: 120
+    BuildTime: 20
+    prefab: {fileID: 3372544179987758199, guid: fc2a329c39bca3a47bc0a071e8089aeb, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: bf1b7f02936528442a2ea9fca2bbd64e, type: 3}
+  - id: 11
+    Name: Harvester
+    ShipType: 0
+    ProductionTab: 1
+    productKind: 0
+    Cost:
+      Energy: 520
+      Mineral: 420
+      Gas: 120
+    BuildTime: 20
+    prefab: {fileID: 3372544179987758199, guid: 404d9cdb792ab65479517dab470c9576, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 8cdb467fa22f5934db1eafd2b2013894, type: 3}
+  - id: 12
+    Name: ArtilertLincore
+    ShipType: 3
+    ProductionTab: 2
+    productKind: 0
+    Cost:
+      Energy: 520
+      Mineral: 420
+      Gas: 120
+    BuildTime: 50
+    prefab: {fileID: 3372544179987758199, guid: 493329650f647c6458dada112d6a0b36, type: 3}
+    squadPlan: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 02f7dd9712846804da859df87c3fdb72, type: 3}

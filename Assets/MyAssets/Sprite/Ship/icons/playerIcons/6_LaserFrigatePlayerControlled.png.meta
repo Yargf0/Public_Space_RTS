@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 0a53fa8590511324a9c59fe9774b9911
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7901774122313326322
+    second: 6_LaserFrigatePlayerControlled_0
+  - first:
+      213: 1873923697003244564
+    second: 6_LaserFrigatePlayerControlled_1
+  - first:
+      213: -3171138674942666804
+    second: 6_LaserFrigatePlayerControlled_2
+  - first:
+      213: -7719311734239023802
+    second: 6_LaserFrigatePlayerControlled_3
+  - first:
+      213: 6922858554273444138
+    second: 6_LaserFrigatePlayerControlled_4
+  - first:
+      213: -1254020088689520465
+    second: 6_LaserFrigatePlayerControlled_5
+  - first:
+      213: 2140601273708044597
+    second: 6_LaserFrigatePlayerControlled_6
+  - first:
+      213: 8158475347818148853
+    second: 6_LaserFrigatePlayerControlled_7
+  - first:
+      213: 775664212548767745
+    second: 6_LaserFrigatePlayerControlled_8
+  - first:
+      213: 6303758710484808320
+    second: 6_LaserFrigatePlayerControlled_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 967
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e3281d42475290800000000000000
+      internalID: -7901774122313326322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 983
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca0188ca3810a10800000000000000
+      internalID: 1873923697003244564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 967
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc71a823d2addf3d0800000000000000
+      internalID: -3171138674942666804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 274
+        width: 16
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dad2a50ee7fd490800000000000000
+      internalID: -7719311734239023802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 270
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a213ebd1d2fe21060800000000000000
+      internalID: 6922858554273444138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 55
+        width: 770
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa015789f53d89ee0800000000000000
+      internalID: -1254020088689520465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_6
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 274
+        width: 16
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531ed1d5481f4bd10800000000000000
+      internalID: 2140601273708044597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 41
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f37b777a1ab83170800000000000000
+      internalID: 8158475347818148853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 25
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100d3fddd76b3ca00800000000000000
+      internalID: 775664212548767745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_LaserFrigatePlayerControlled_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 41
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082b83006237b7750800000000000000
+      internalID: 6303758710484808320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      6_LaserFrigatePlayerControlled_0: -7901774122313326322
+      6_LaserFrigatePlayerControlled_1: 1873923697003244564
+      6_LaserFrigatePlayerControlled_2: -3171138674942666804
+      6_LaserFrigatePlayerControlled_3: -7719311734239023802
+      6_LaserFrigatePlayerControlled_4: 6922858554273444138
+      6_LaserFrigatePlayerControlled_5: -1254020088689520465
+      6_LaserFrigatePlayerControlled_6: 2140601273708044597
+      6_LaserFrigatePlayerControlled_7: 8158475347818148853
+      6_LaserFrigatePlayerControlled_8: 775664212548767745
+      6_LaserFrigatePlayerControlled_9: 6303758710484808320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

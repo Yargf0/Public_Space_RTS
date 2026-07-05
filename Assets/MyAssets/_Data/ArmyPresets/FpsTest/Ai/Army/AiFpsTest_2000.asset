@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiFpsTest_2000
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  defaultTactics: 2
+  defaultStance: 2
+  initialState: 1
+  initialMoveMode: 2
+  initialFireMode: 0
+  squads:
+  - label: Ai FPS Chunk 1
+    spawnOffset: {x: -63.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 2
+    spawnOffset: {x: -45.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 3
+    spawnOffset: {x: -27.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 4
+    spawnOffset: {x: -9.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 5
+    spawnOffset: {x: 9.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 6
+    spawnOffset: {x: 27.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 7
+    spawnOffset: {x: 45.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 8
+    spawnOffset: {x: 63.0, y: -36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 9
+    spawnOffset: {x: -63.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 10
+    spawnOffset: {x: -45.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 11
+    spawnOffset: {x: -27.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 12
+    spawnOffset: {x: -9.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 13
+    spawnOffset: {x: 9.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 14
+    spawnOffset: {x: 27.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 15
+    spawnOffset: {x: 45.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 16
+    spawnOffset: {x: 63.0, y: -18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 17
+    spawnOffset: {x: -63.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 18
+    spawnOffset: {x: -45.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 19
+    spawnOffset: {x: -27.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 20
+    spawnOffset: {x: -9.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 21
+    spawnOffset: {x: 9.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 22
+    spawnOffset: {x: 27.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 23
+    spawnOffset: {x: 45.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 24
+    spawnOffset: {x: 63.0, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 25
+    spawnOffset: {x: -63.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 26
+    spawnOffset: {x: -45.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 27
+    spawnOffset: {x: -27.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 28
+    spawnOffset: {x: -9.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 29
+    spawnOffset: {x: 9.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 30
+    spawnOffset: {x: 27.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 31
+    spawnOffset: {x: 45.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 32
+    spawnOffset: {x: 63.0, y: 18.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 33
+    spawnOffset: {x: -63.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 34
+    spawnOffset: {x: -45.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 35
+    spawnOffset: {x: -27.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 36
+    spawnOffset: {x: -9.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 37
+    spawnOffset: {x: 9.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 38
+    spawnOffset: {x: 27.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 39
+    spawnOffset: {x: 45.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}
+  - label: Ai FPS Chunk 40
+    spawnOffset: {x: 63.0, y: 36.0}
+    squadPlan: {fileID: 11400000, guid: aa05460ff03d4bf09155f34c910e4e57, type: 2}

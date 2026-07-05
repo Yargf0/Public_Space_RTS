@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 2a8c90446fd63c64da4df7f30d7cbd3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2163294268442863215
+    second: 3_TorpedoBomberPlayerControlled_0
+  - first:
+      213: -7354367130119019850
+    second: 3_TorpedoBomberPlayerControlled_1
+  - first:
+      213: 4949615556277470738
+    second: 3_TorpedoBomberPlayerControlled_2
+  - first:
+      213: 5024356955979102438
+    second: 3_TorpedoBomberPlayerControlled_3
+  - first:
+      213: -914377814830696567
+    second: 3_TorpedoBomberPlayerControlled_4
+  - first:
+      213: 249705796779384793
+    second: 3_TorpedoBomberPlayerControlled_5
+  - first:
+      213: -829699838416638618
+    second: 3_TorpedoBomberPlayerControlled_6
+  - first:
+      213: -3584208586580800106
+    second: 3_TorpedoBomberPlayerControlled_7
+  - first:
+      213: -7993176365606576206
+    second: 3_TorpedoBomberPlayerControlled_8
+  - first:
+      213: 7846109777049990654
+    second: 3_TorpedoBomberPlayerControlled_9
+  - first:
+      213: -6126451811144801505
+    second: 3_TorpedoBomberPlayerControlled_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 967
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19913d0135f6af1e0800000000000000
+      internalID: -2163294268442863215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 983
+        width: 244
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2627d6f0a00f990800000000000000
+      internalID: -7354367130119019850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 967
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2168aaecf1190b440800000000000000
+      internalID: 4949615556277470738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 384
+        width: 16
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8b5e1080a1ab540800000000000000
+      internalID: 5024356955979102438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 55
+        width: 912
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987b484d83a7f43f0800000000000000
+      internalID: -914377814830696567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_5
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 617
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df14636912277300800000000000000
+      internalID: 249705796779384793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_6
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 381
+        width: 16
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d2af494605c74f0800000000000000
+      internalID: -829699838416638618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 336
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d42fbc745524ec0800000000000000
+      internalID: -3584208586580800106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 41
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfd8f4f178821190800000000000000
+      internalID: -7993176365606576206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 25
+        width: 243
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b8c1954bf2ec60800000000000000
+      internalID: 7846109777049990654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_TorpedoBomberPlayerControlled_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 41
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f136a2f79887afaa0800000000000000
+      internalID: -6126451811144801505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      3_TorpedoBomberPlayerControlled_0: -2163294268442863215
+      3_TorpedoBomberPlayerControlled_1: -7354367130119019850
+      3_TorpedoBomberPlayerControlled_10: -6126451811144801505
+      3_TorpedoBomberPlayerControlled_2: 4949615556277470738
+      3_TorpedoBomberPlayerControlled_3: 5024356955979102438
+      3_TorpedoBomberPlayerControlled_4: -914377814830696567
+      3_TorpedoBomberPlayerControlled_5: 249705796779384793
+      3_TorpedoBomberPlayerControlled_6: -829699838416638618
+      3_TorpedoBomberPlayerControlled_7: -3584208586580800106
+      3_TorpedoBomberPlayerControlled_8: -7993176365606576206
+      3_TorpedoBomberPlayerControlled_9: 7846109777049990654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

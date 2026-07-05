@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerBattle2_SmallEngagement
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 55.0
+  chaseDistance: 70.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Vanguard L
+    spawnOffset: {x: -16, y: -18}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Vanguard R
+    spawnOffset: {x: 16, y: -18}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Fighters
+    spawnOffset: {x: 0, y: -14}
+    squadPlan: {fileID: 11400000, guid: 4fc16b0446244694b730aa9c8bd6cad5, type: 2}
+  - label: Corvettes
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Missiles
+    spawnOffset: {x: 0, y: 4}
+    squadPlan: {fileID: 11400000, guid: 968b8e9bf8969b65bb13f476e6f06786, type: 2}
+  - label: Frigates L
+    spawnOffset: {x: -10, y: 10}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Frigates R
+    spawnOffset: {x: 10, y: 10}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Support
+    spawnOffset: {x: 0, y: 16}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Carrier
+    spawnOffset: {x: 0, y: 22}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}

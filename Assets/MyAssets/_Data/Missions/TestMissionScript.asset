@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27270f1e1e89ec946ba9213700b41dde, type: 3}
+  m_Name: TestMissionScript
+  m_EditorClassIdentifier: Assembly-CSharp::MissionScript
+  missionLabel: Untitled Mission
+  description: 
+  spawnPresets:
+  - label: 
+    plan: {fileID: 11400000, guid: 918030c17d5f550458f433223dd4239b, type: 2}
+    spawnWaypointId: 101
+    targetWaypointId: 102
+    assignGroupId: 1
+    tactics: 2
+    stance: 2
+  - label: 
+    plan: {fileID: 11400000, guid: 8a3bc3b0acf35b748be75760e0139564, type: 2}
+    spawnWaypointId: 201
+    targetWaypointId: 202
+    assignGroupId: 2
+    tactics: 2
+    stance: 2
+  initialSpawnPresetIndexes: 0000000001000000
+  events:
+  - label: 
+    fireOnce: 0
+    cooldownSeconds: 0
+    trigger:
+      kind: 2
+      delaySeconds: 2
+      groupId: 0
+      faction: 0
+      threshold: 0
+      waypointId: 0
+      arrivalRadius: 0
+    actions:
+    - kind: 6
+      spawnPresetIndex: 0
+      groupId: 1
+      faction: 1
+      targetFaction: 0
+      stance: 2
+      targetWaypointId: 0
+      radius: 24
+      tactics: 1
+      destroyMode: 2
+      message: Mission event
+    - kind: 6
+      spawnPresetIndex: 0
+      groupId: 2
+      faction: 0
+      targetFaction: 1
+      stance: 2
+      targetWaypointId: 0
+      radius: 24
+      tactics: 1
+      destroyMode: 2
+      message: Mission event

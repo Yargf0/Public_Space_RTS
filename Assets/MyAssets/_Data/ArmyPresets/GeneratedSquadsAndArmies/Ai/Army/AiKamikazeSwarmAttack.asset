@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiKamikazeSwarmAttack
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 4
+  initialState: 1
+  initialMoveMode: 2
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 80.0
+  chaseDistance: 100.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Wave 1 L
+    spawnOffset: {x: -16, y: 4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Wave 1 R
+    spawnOffset: {x: 16, y: 4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Wave 2 L
+    spawnOffset: {x: -10, y: -6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Wave 2 R
+    spawnOffset: {x: 10, y: -6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Screen
+    spawnOffset: {x: 0, y: 10}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}

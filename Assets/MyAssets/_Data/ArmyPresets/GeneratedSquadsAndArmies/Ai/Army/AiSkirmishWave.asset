@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiSkirmishWave
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 4
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 50.0
+  chaseDistance: 60.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Vanguard L
+    spawnOffset: {x: -12, y: 4}
+    squadPlan: {fileID: 11400000, guid: 5798b5f18bbb0755f50409d2365e22b3, type: 2}
+  - label: Vanguard R
+    spawnOffset: {x: 12, y: 4}
+    squadPlan: {fileID: 11400000, guid: 5798b5f18bbb0755f50409d2365e22b3, type: 2}
+  - label: Strike
+    spawnOffset: {x: 0, y: -6}
+    squadPlan: {fileID: 11400000, guid: bfd8426dc8cc731c79ad6a5edb33e0e1, type: 2}

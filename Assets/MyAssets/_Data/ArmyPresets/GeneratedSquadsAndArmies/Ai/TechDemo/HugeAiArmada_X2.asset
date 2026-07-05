@@ -1,0 +1,1173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: HugeAiArmada_X2
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 1
+  initialState: 1
+  initialMoveMode: 2
+  initialFireMode: 0
+  searchRange: 50.0
+  leashDistance: 80.0
+  chaseDistance: 100.0
+  targetSearchInterval: 0.5
+  targetMemoryDuration: 2.0
+  regroupRadius: 12.0
+  guardRadius: 40.0
+  squads:
+  - label: Vanguard Interceptors 1
+    spawnOffset: {x: -81.8, y: 69.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 2
+    spawnOffset: {x: -63.8, y: 70.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 3
+    spawnOffset: {x: -45.8, y: 69.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 4
+    spawnOffset: {x: -27.8, y: 70.0}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 5
+    spawnOffset: {x: -9.8, y: 70.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 6
+    spawnOffset: {x: 8.2, y: 69.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 7
+    spawnOffset: {x: 26.2, y: 70.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 8
+    spawnOffset: {x: 44.2, y: 69.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 9
+    spawnOffset: {x: 62.2, y: 70.0}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 10
+    spawnOffset: {x: 80.2, y: 70.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 11
+    spawnOffset: {x: -80.6, y: 80.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 12
+    spawnOffset: {x: -62.6, y: 79.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 13
+    spawnOffset: {x: -44.6, y: 80.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 14
+    spawnOffset: {x: -26.6, y: 79.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 15
+    spawnOffset: {x: -8.6, y: 80.0}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 16
+    spawnOffset: {x: 9.4, y: 80.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 17
+    spawnOffset: {x: 27.4, y: 79.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 18
+    spawnOffset: {x: 45.4, y: 80.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 19
+    spawnOffset: {x: 63.4, y: 79.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Interceptors 20
+    spawnOffset: {x: 81.4, y: 80.0}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Vanguard Kamikaze 1
+    spawnOffset: {x: -70.4, y: 50.0}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 2
+    spawnOffset: {x: -50.4, y: 50.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 3
+    spawnOffset: {x: -30.4, y: 49.6}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 4
+    spawnOffset: {x: -10.4, y: 50.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 5
+    spawnOffset: {x: 9.6, y: 49.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 6
+    spawnOffset: {x: 29.6, y: 50.0}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 7
+    spawnOffset: {x: 49.6, y: 50.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 8
+    spawnOffset: {x: 69.6, y: 49.6}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 9
+    spawnOffset: {x: -69.2, y: 59.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 10
+    spawnOffset: {x: -49.2, y: 60.0}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 11
+    spawnOffset: {x: -29.2, y: 60.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 12
+    spawnOffset: {x: -9.2, y: 59.6}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 13
+    spawnOffset: {x: 10.8, y: 60.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 14
+    spawnOffset: {x: 30.8, y: 59.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 15
+    spawnOffset: {x: 50.8, y: 60.0}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Vanguard Kamikaze 16
+    spawnOffset: {x: 70.8, y: 60.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Tank Line 1
+    spawnOffset: {x: -70.0, y: 20.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 2
+    spawnOffset: {x: -50.0, y: 19.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 3
+    spawnOffset: {x: -30.0, y: 20.0}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 4
+    spawnOffset: {x: -10.0, y: 20.8}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 5
+    spawnOffset: {x: 10.0, y: 19.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 6
+    spawnOffset: {x: 30.0, y: 20.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 7
+    spawnOffset: {x: 50.0, y: 19.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 8
+    spawnOffset: {x: 70.0, y: 20.0}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 9
+    spawnOffset: {x: -68.8, y: 29.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 10
+    spawnOffset: {x: -48.8, y: 30.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 11
+    spawnOffset: {x: -28.8, y: 29.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 12
+    spawnOffset: {x: -8.8, y: 30.0}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 13
+    spawnOffset: {x: 11.2, y: 30.8}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 14
+    spawnOffset: {x: 31.2, y: 29.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 15
+    spawnOffset: {x: 51.2, y: 30.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Tank Line 16
+    spawnOffset: {x: 71.2, y: 29.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Bomber Wing 1
+    spawnOffset: {x: -65.6, y: 0.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 2
+    spawnOffset: {x: -43.6, y: -0.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 3
+    spawnOffset: {x: -21.6, y: 0.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 4
+    spawnOffset: {x: 0.4, y: -0.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 5
+    spawnOffset: {x: 22.4, y: 0.0}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 6
+    spawnOffset: {x: 44.4, y: 0.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 7
+    spawnOffset: {x: 66.4, y: -0.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 8
+    spawnOffset: {x: -67.2, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 9
+    spawnOffset: {x: -45.2, y: 10.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 10
+    spawnOffset: {x: -23.2, y: 9.6}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 11
+    spawnOffset: {x: -1.2000000000000002, y: 10.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 12
+    spawnOffset: {x: 20.8, y: 9.2}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 13
+    spawnOffset: {x: 42.8, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Bomber Wing 14
+    spawnOffset: {x: 64.8, y: 10.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Missile Battery 1
+    spawnOffset: {x: -80.2, y: -20.8}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 2
+    spawnOffset: {x: -62.2, y: -20.0}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 3
+    spawnOffset: {x: -44.2, y: -19.2}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 4
+    spawnOffset: {x: -26.2, y: -20.4}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 5
+    spawnOffset: {x: -8.2, y: -19.6}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 6
+    spawnOffset: {x: 9.8, y: -20.8}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 7
+    spawnOffset: {x: 27.8, y: -20.0}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 8
+    spawnOffset: {x: 45.8, y: -19.2}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 9
+    spawnOffset: {x: 63.8, y: -20.4}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Missile Battery 10
+    spawnOffset: {x: 81.8, y: -19.6}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Volley Battery 1
+    spawnOffset: {x: -75.8, y: -32.4}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 2
+    spawnOffset: {x: -53.8, y: -31.6}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 3
+    spawnOffset: {x: -31.8, y: -32.8}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 4
+    spawnOffset: {x: -9.8, y: -32.0}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 5
+    spawnOffset: {x: 12.2, y: -31.2}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 6
+    spawnOffset: {x: 34.2, y: -32.4}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 7
+    spawnOffset: {x: 56.2, y: -31.6}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Volley Battery 8
+    spawnOffset: {x: 78.2, y: -32.8}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Railgun 1
+    spawnOffset: {x: -61.2, y: -50.0}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 2
+    spawnOffset: {x: -37.2, y: -49.2}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 3
+    spawnOffset: {x: -13.2, y: -50.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 4
+    spawnOffset: {x: 10.8, y: -49.6}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 5
+    spawnOffset: {x: 34.8, y: -50.8}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 6
+    spawnOffset: {x: 58.8, y: -50.0}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 7
+    spawnOffset: {x: -60.0, y: -40.8}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 8
+    spawnOffset: {x: -36.0, y: -40.0}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 9
+    spawnOffset: {x: -12.0, y: -39.2}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 10
+    spawnOffset: {x: 12.0, y: -40.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 11
+    spawnOffset: {x: 36.0, y: -39.6}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Railgun 12
+    spawnOffset: {x: 60.0, y: -40.8}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Carrier Group 1
+    spawnOffset: {x: -56.8, y: -71.6}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Carrier Group 2
+    spawnOffset: {x: -28.8, y: -72.8}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Carrier Group 3
+    spawnOffset: {x: -0.8, y: -72.0}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Carrier Group 4
+    spawnOffset: {x: 27.2, y: -71.2}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Carrier Group 5
+    spawnOffset: {x: 55.2, y: -72.4}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Healer 1
+    spawnOffset: {x: -55.4, y: -9.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 2
+    spawnOffset: {x: -33.4, y: -10.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 3
+    spawnOffset: {x: -11.4, y: -9.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 4
+    spawnOffset: {x: 10.6, y: -10.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 5
+    spawnOffset: {x: 32.6, y: -10.0}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 6
+    spawnOffset: {x: 54.6, y: -9.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 7
+    spawnOffset: {x: -54.2, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 8
+    spawnOffset: {x: -32.2, y: 10.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 9
+    spawnOffset: {x: -10.2, y: 9.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 10
+    spawnOffset: {x: 11.8, y: 10.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 11
+    spawnOffset: {x: 33.8, y: 9.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 12
+    spawnOffset: {x: 55.8, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 13
+    spawnOffset: {x: -55.8, y: 29.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 14
+    spawnOffset: {x: -33.8, y: 30.0}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 15
+    spawnOffset: {x: -11.8, y: 30.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 16
+    spawnOffset: {x: 10.2, y: 29.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 17
+    spawnOffset: {x: 32.2, y: 30.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Healer 18
+    spawnOffset: {x: 54.2, y: 29.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Kamikaze Wave A 1
+    spawnOffset: {x: -81.0, y: 89.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 2
+    spawnOffset: {x: -63.0, y: 90.0}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 3
+    spawnOffset: {x: -45.0, y: 90.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 4
+    spawnOffset: {x: -27.0, y: 89.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 5
+    spawnOffset: {x: -9.0, y: 90.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 6
+    spawnOffset: {x: 9.0, y: 89.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 7
+    spawnOffset: {x: 27.0, y: 90.0}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 8
+    spawnOffset: {x: 45.0, y: 90.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 9
+    spawnOffset: {x: 63.0, y: 89.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 10
+    spawnOffset: {x: 81.0, y: 90.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 11
+    spawnOffset: {x: -79.8, y: 100.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 12
+    spawnOffset: {x: -61.8, y: 99.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 13
+    spawnOffset: {x: -43.8, y: 100.0}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 14
+    spawnOffset: {x: -25.8, y: 100.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 15
+    spawnOffset: {x: -7.8, y: 99.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 16
+    spawnOffset: {x: 10.2, y: 100.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 17
+    spawnOffset: {x: 28.2, y: 99.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 18
+    spawnOffset: {x: 46.2, y: 100.0}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 19
+    spawnOffset: {x: 64.2, y: 100.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Kamikaze Wave A 20
+    spawnOffset: {x: 82.2, y: 99.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Interceptor Swarm Far 1
+    spawnOffset: {x: -87.6, y: 109.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 2
+    spawnOffset: {x: -71.6, y: 110.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 3
+    spawnOffset: {x: -55.6, y: 109.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 4
+    spawnOffset: {x: -39.6, y: 110.0}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 5
+    spawnOffset: {x: -23.6, y: 110.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 6
+    spawnOffset: {x: -7.6, y: 109.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 7
+    spawnOffset: {x: 8.4, y: 110.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 8
+    spawnOffset: {x: 24.4, y: 109.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 9
+    spawnOffset: {x: 40.4, y: 110.0}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 10
+    spawnOffset: {x: 56.4, y: 110.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 11
+    spawnOffset: {x: 72.4, y: 109.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 12
+    spawnOffset: {x: 88.4, y: 110.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 13
+    spawnOffset: {x: -89.2, y: 120.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 14
+    spawnOffset: {x: -73.2, y: 119.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 15
+    spawnOffset: {x: -57.2, y: 120.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 16
+    spawnOffset: {x: -41.2, y: 119.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 17
+    spawnOffset: {x: -25.2, y: 120.0}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 18
+    spawnOffset: {x: -9.2, y: 120.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 19
+    spawnOffset: {x: 6.8, y: 119.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 20
+    spawnOffset: {x: 22.8, y: 120.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 21
+    spawnOffset: {x: 38.8, y: 119.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 22
+    spawnOffset: {x: 54.8, y: 120.0}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 23
+    spawnOffset: {x: 70.8, y: 120.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Interceptor Swarm Far 24
+    spawnOffset: {x: 86.8, y: 119.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Flank L 1
+    spawnOffset: {x: -130, y: -40}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 2
+    spawnOffset: {x: -130, y: -28}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 3
+    spawnOffset: {x: -130, y: -16}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 4
+    spawnOffset: {x: -130, y: -4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 5
+    spawnOffset: {x: -130, y: 8}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 6
+    spawnOffset: {x: -130, y: 20}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 7
+    spawnOffset: {x: -130, y: 32}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 8
+    spawnOffset: {x: -130, y: 44}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank L 9
+    spawnOffset: {x: -130, y: 56}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 1
+    spawnOffset: {x: 130, y: -40}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 2
+    spawnOffset: {x: 130, y: -28}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 3
+    spawnOffset: {x: 130, y: -16}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 4
+    spawnOffset: {x: 130, y: -4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 5
+    spawnOffset: {x: 130, y: 8}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 6
+    spawnOffset: {x: 130, y: 20}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 7
+    spawnOffset: {x: 130, y: 32}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 8
+    spawnOffset: {x: 130, y: 44}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Flank R 9
+    spawnOffset: {x: 130, y: 56}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Far Flank L 1
+    spawnOffset: {x: -150, y: -20}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank L 2
+    spawnOffset: {x: -150, y: -10}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank L 3
+    spawnOffset: {x: -150, y: 0}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank L 4
+    spawnOffset: {x: -150, y: 10}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank L 5
+    spawnOffset: {x: -150, y: 20}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank R 1
+    spawnOffset: {x: 150, y: -20}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank R 2
+    spawnOffset: {x: 150, y: -10}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank R 3
+    spawnOffset: {x: 150, y: 0}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank R 4
+    spawnOffset: {x: 150, y: 10}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Far Flank R 5
+    spawnOffset: {x: 150, y: 20}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Vanguard Interceptors 1
+    spawnOffset: {x: -96.3, y: 203.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 2
+    spawnOffset: {x: -76.9, y: 205.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 3
+    spawnOffset: {x: -57.5, y: 205}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 4
+    spawnOffset: {x: -38, y: 206.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 5
+    spawnOffset: {x: -18.6, y: 204.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 6
+    spawnOffset: {x: 16.9, y: 203.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 7
+    spawnOffset: {x: 36.3, y: 205.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 8
+    spawnOffset: {x: 55.7, y: 205}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 9
+    spawnOffset: {x: 75.2, y: 206.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 10
+    spawnOffset: {x: 94.6, y: 204.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 11
+    spawnOffset: {x: -95, y: 215}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 12
+    spawnOffset: {x: -75.6, y: 214.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 13
+    spawnOffset: {x: -56.2, y: 216.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 14
+    spawnOffset: {x: -36.7, y: 215.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 15
+    spawnOffset: {x: -17.3, y: 213.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 16
+    spawnOffset: {x: 18.2, y: 215}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 17
+    spawnOffset: {x: 37.6, y: 214.6}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 18
+    spawnOffset: {x: 57, y: 216.2}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 19
+    spawnOffset: {x: 76.5, y: 215.8}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Interceptors 20
+    spawnOffset: {x: 95.9, y: 213.4}
+    squadPlan: {fileID: 11400000, guid: 1fa4e61e2265c3f3e9305c2ebe81dacc, type: 2}
+  - label: Reserve Vanguard Kamikaze 1
+    spawnOffset: {x: -84, y: 184.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 2
+    spawnOffset: {x: -62.4, y: 185.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 3
+    spawnOffset: {x: -40.8, y: 185.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 4
+    spawnOffset: {x: -19.2, y: 187}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 5
+    spawnOffset: {x: 18.4, y: 182.6}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 6
+    spawnOffset: {x: 40, y: 184.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 7
+    spawnOffset: {x: 61.6, y: 185.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 8
+    spawnOffset: {x: 83.2, y: 185.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 9
+    spawnOffset: {x: -82.7, y: 195.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 10
+    spawnOffset: {x: -61.1, y: 193.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 11
+    spawnOffset: {x: -39.5, y: 195}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 12
+    spawnOffset: {x: -17.9, y: 194.6}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 13
+    spawnOffset: {x: 19.7, y: 196.2}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 14
+    spawnOffset: {x: 41.3, y: 195.8}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 15
+    spawnOffset: {x: 62.9, y: 193.4}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Vanguard Kamikaze 16
+    spawnOffset: {x: 84.5, y: 195}
+    squadPlan: {fileID: 11400000, guid: ee769839e003ba1e20050423dc5fafa7, type: 2}
+  - label: Reserve Tank Line 1
+    spawnOffset: {x: -83.6, y: 155.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 2
+    spawnOffset: {x: -62, y: 155}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 3
+    spawnOffset: {x: -40.4, y: 156.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 4
+    spawnOffset: {x: -18.8, y: 154.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 5
+    spawnOffset: {x: 18.8, y: 153.8}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 6
+    spawnOffset: {x: 40.4, y: 155.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 7
+    spawnOffset: {x: 62, y: 155}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 8
+    spawnOffset: {x: 83.6, y: 156.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 9
+    spawnOffset: {x: -82.3, y: 163}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 10
+    spawnOffset: {x: -60.7, y: 164.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 11
+    spawnOffset: {x: -39.1, y: 164.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 12
+    spawnOffset: {x: -17.5, y: 165.8}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 13
+    spawnOffset: {x: 20.1, y: 167.4}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 14
+    spawnOffset: {x: 41.7, y: 163}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 15
+    spawnOffset: {x: 63.3, y: 164.6}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Tank Line 16
+    spawnOffset: {x: 84.9, y: 164.2}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Reserve Bomber Wing 1
+    spawnOffset: {x: -78.8, y: 136.6}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 2
+    spawnOffset: {x: -55.1, y: 136.2}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 3
+    spawnOffset: {x: -31.3, y: 133.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 4
+    spawnOffset: {x: 8.4, y: 133.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 5
+    spawnOffset: {x: 32.2, y: 135}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 6
+    spawnOffset: {x: 56, y: 136.6}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 7
+    spawnOffset: {x: 79.7, y: 136.2}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 8
+    spawnOffset: {x: -80.6, y: 143.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 9
+    spawnOffset: {x: -56.8, y: 145}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 10
+    spawnOffset: {x: -33.1, y: 144.6}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 11
+    spawnOffset: {x: -9.3, y: 146.2}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 12
+    spawnOffset: {x: 30.5, y: 145.8}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 13
+    spawnOffset: {x: 54.2, y: 143.4}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Bomber Wing 14
+    spawnOffset: {x: 78, y: 145}
+    squadPlan: {fileID: 11400000, guid: efa81a7da491094d9e5123a6c6209424, type: 2}
+  - label: Reserve Missile Battery 1
+    spawnOffset: {x: -94.6, y: 114.2}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 2
+    spawnOffset: {x: -75.2, y: 115.8}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 3
+    spawnOffset: {x: -55.7, y: 117.4}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 4
+    spawnOffset: {x: -36.3, y: 113}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 5
+    spawnOffset: {x: -16.9, y: 114.6}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 6
+    spawnOffset: {x: 18.6, y: 114.2}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 7
+    spawnOffset: {x: 38, y: 115.8}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 8
+    spawnOffset: {x: 57.5, y: 117.4}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 9
+    spawnOffset: {x: 76.9, y: 113}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Missile Battery 10
+    spawnOffset: {x: 96.3, y: 114.6}
+    squadPlan: {fileID: 11400000, guid: e6b5fb8d3fc8851ab4bde7077775201b, type: 2}
+  - label: Reserve Volley Battery 1
+    spawnOffset: {x: -89.9, y: 102.6}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 2
+    spawnOffset: {x: -66.1, y: 104.2}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 3
+    spawnOffset: {x: -42.3, y: 103.8}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 4
+    spawnOffset: {x: -18.6, y: 101.4}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 5
+    spawnOffset: {x: 21.2, y: 103}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 6
+    spawnOffset: {x: 44.9, y: 102.6}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 7
+    spawnOffset: {x: 68.7, y: 104.2}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Volley Battery 8
+    spawnOffset: {x: 92.5, y: 103.8}
+    squadPlan: {fileID: 11400000, guid: bbd4e6d61990d11e850ffc130a47a8d6, type: 2}
+  - label: Reserve Railgun 1
+    spawnOffset: {x: -74.1, y: 83.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 2
+    spawnOffset: {x: -48.2, y: 85}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 3
+    spawnOffset: {x: -22.3, y: 84.6}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 4
+    spawnOffset: {x: 19.7, y: 86.2}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 5
+    spawnOffset: {x: 45.6, y: 85.8}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 6
+    spawnOffset: {x: 71.5, y: 83.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 7
+    spawnOffset: {x: -72.8, y: 93.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 8
+    spawnOffset: {x: -46.9, y: 95}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 9
+    spawnOffset: {x: -21, y: 96.6}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 10
+    spawnOffset: {x: 21, y: 96.2}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 11
+    spawnOffset: {x: 46.9, y: 93.8}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Railgun 12
+    spawnOffset: {x: 72.8, y: 93.4}
+    squadPlan: {fileID: 11400000, guid: f71be4d8b3c1cfec2aa999acd689b309, type: 2}
+  - label: Reserve Carrier Group 1
+    spawnOffset: {x: -69.3, y: 63.4}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Reserve Carrier Group 2
+    spawnOffset: {x: -39.1, y: 63}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Reserve Carrier Group 3
+    spawnOffset: {x: -8.9, y: 64.6}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Reserve Carrier Group 4
+    spawnOffset: {x: 37.4, y: 62.2}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Reserve Carrier Group 5
+    spawnOffset: {x: 67.6, y: 61.8}
+    squadPlan: {fileID: 11400000, guid: 0cb3b5e114226499714fbb3849213f2a, type: 2}
+  - label: Reserve Healer 1
+    spawnOffset: {x: -67.8, y: 125.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 2
+    spawnOffset: {x: -44.1, y: 125.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 3
+    spawnOffset: {x: -20.3, y: 127}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 4
+    spawnOffset: {x: 19.4, y: 122.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 5
+    spawnOffset: {x: 43.2, y: 124.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 6
+    spawnOffset: {x: 67, y: 125.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 7
+    spawnOffset: {x: -66.5, y: 145.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 8
+    spawnOffset: {x: -42.8, y: 147.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 9
+    spawnOffset: {x: -19, y: 143}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 10
+    spawnOffset: {x: 20.7, y: 144.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 11
+    spawnOffset: {x: 44.5, y: 144.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 12
+    spawnOffset: {x: 68.3, y: 145.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 13
+    spawnOffset: {x: -68.3, y: 165.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 14
+    spawnOffset: {x: -44.5, y: 163.4}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 15
+    spawnOffset: {x: -20.7, y: 165}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 16
+    spawnOffset: {x: 19, y: 164.6}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 17
+    spawnOffset: {x: 42.8, y: 166.2}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Healer 18
+    spawnOffset: {x: 66.5, y: 165.8}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}
+  - label: Reserve Kamikaze Wave A 1
+    spawnOffset: {x: -95.5, y: 222.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 2
+    spawnOffset: {x: -76, y: 224.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 3
+    spawnOffset: {x: -56.6, y: 225.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 4
+    spawnOffset: {x: -37.2, y: 225.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 5
+    spawnOffset: {x: -17.7, y: 227}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 6
+    spawnOffset: {x: 17.7, y: 222.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 7
+    spawnOffset: {x: 37.2, y: 224.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 8
+    spawnOffset: {x: 56.6, y: 225.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 9
+    spawnOffset: {x: 76, y: 225.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 10
+    spawnOffset: {x: 95.5, y: 227}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 11
+    spawnOffset: {x: -94.2, y: 233.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 12
+    spawnOffset: {x: -74.7, y: 233.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 13
+    spawnOffset: {x: -55.3, y: 235}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 14
+    spawnOffset: {x: -35.9, y: 236.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 15
+    spawnOffset: {x: -16.4, y: 236.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 16
+    spawnOffset: {x: 19, y: 233.8}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 17
+    spawnOffset: {x: 38.5, y: 233.4}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 18
+    spawnOffset: {x: 57.9, y: 235}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 19
+    spawnOffset: {x: 77.3, y: 236.6}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Kamikaze Wave A 20
+    spawnOffset: {x: 96.8, y: 236.2}
+    squadPlan: {fileID: 11400000, guid: f5327057a155f22173de992ea9e13556, type: 2}
+  - label: Reserve Interceptor Swarm Far 1
+    spawnOffset: {x: -102.6, y: 243}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 2
+    spawnOffset: {x: -85.3, y: 244.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 3
+    spawnOffset: {x: -68, y: 244.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 4
+    spawnOffset: {x: -50.8, y: 245.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 5
+    spawnOffset: {x: -33.5, y: 247.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 6
+    spawnOffset: {x: -16.2, y: 243}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 7
+    spawnOffset: {x: 17.1, y: 244.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 8
+    spawnOffset: {x: 34.4, y: 244.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 9
+    spawnOffset: {x: 51.6, y: 245.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 10
+    spawnOffset: {x: 68.9, y: 247.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 11
+    spawnOffset: {x: 86.2, y: 243}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 12
+    spawnOffset: {x: 103.5, y: 244.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 13
+    spawnOffset: {x: -104.3, y: 255.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 14
+    spawnOffset: {x: -87.1, y: 255.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 15
+    spawnOffset: {x: -69.8, y: 257}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 16
+    spawnOffset: {x: -52.5, y: 252.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 17
+    spawnOffset: {x: -35.2, y: 254.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 18
+    spawnOffset: {x: -17.9, y: 255.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 19
+    spawnOffset: {x: 15.3, y: 255.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 20
+    spawnOffset: {x: 32.6, y: 257}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 21
+    spawnOffset: {x: 49.9, y: 252.6}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 22
+    spawnOffset: {x: 67.2, y: 254.2}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 23
+    spawnOffset: {x: 84.5, y: 255.8}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Interceptor Swarm Far 24
+    spawnOffset: {x: 101.7, y: 255.4}
+    squadPlan: {fileID: 11400000, guid: 7a820e2ae533d721897981f22cc7bd57, type: 2}
+  - label: Reserve Flank L 1
+    spawnOffset: {x: -148.4, y: 96.6}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 2
+    spawnOffset: {x: -148.4, y: 105.4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 3
+    spawnOffset: {x: -148.4, y: 118.2}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 4
+    spawnOffset: {x: -148.4, y: 131}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 5
+    spawnOffset: {x: -148.4, y: 143.8}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 6
+    spawnOffset: {x: -148.4, y: 156.6}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 7
+    spawnOffset: {x: -148.4, y: 165.4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 8
+    spawnOffset: {x: -148.4, y: 178.2}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank L 9
+    spawnOffset: {x: -148.4, y: 191}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 1
+    spawnOffset: {x: 148.4, y: 95.8}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 2
+    spawnOffset: {x: 148.4, y: 108.6}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 3
+    spawnOffset: {x: 148.4, y: 117.4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 4
+    spawnOffset: {x: 148.4, y: 130.2}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 5
+    spawnOffset: {x: 148.4, y: 143}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 6
+    spawnOffset: {x: 148.4, y: 155.8}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 7
+    spawnOffset: {x: 148.4, y: 168.6}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 8
+    spawnOffset: {x: 148.4, y: 177.4}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Flank R 9
+    spawnOffset: {x: 148.4, y: 190.2}
+    squadPlan: {fileID: 11400000, guid: b60af9efff9952e6f37fdf99f7248b95, type: 2}
+  - label: Reserve Far Flank L 1
+    spawnOffset: {x: -170, y: 115}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank L 2
+    spawnOffset: {x: -170, y: 125.8}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank L 3
+    spawnOffset: {x: -170, y: 136.6}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank L 4
+    spawnOffset: {x: -170, y: 143.4}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank L 5
+    spawnOffset: {x: -170, y: 154.2}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank R 1
+    spawnOffset: {x: 170, y: 115}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank R 2
+    spawnOffset: {x: 170, y: 125.8}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank R 3
+    spawnOffset: {x: 170, y: 136.6}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank R 4
+    spawnOffset: {x: 170, y: 143.4}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Reserve Far Flank R 5
+    spawnOffset: {x: 170, y: 154.2}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}

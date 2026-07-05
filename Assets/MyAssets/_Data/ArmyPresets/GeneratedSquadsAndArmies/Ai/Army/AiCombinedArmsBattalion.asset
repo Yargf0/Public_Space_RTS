@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiCombinedArmsBattalion
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 50.0
+  chaseDistance: 60.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Forward
+    spawnOffset: {x: 0, y: 8}
+    squadPlan: {fileID: 11400000, guid: 9d78fbf5bd4bde849c41b0999c620fce, type: 2}
+  - label: Left Flank
+    spawnOffset: {x: -16, y: 2}
+    squadPlan: {fileID: 11400000, guid: bfd8426dc8cc731c79ad6a5edb33e0e1, type: 2}
+  - label: Right Flank
+    spawnOffset: {x: 16, y: 2}
+    squadPlan: {fileID: 11400000, guid: bfd8426dc8cc731c79ad6a5edb33e0e1, type: 2}
+  - label: Bombers Left
+    spawnOffset: {x: -10, y: -8}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Bombers Right
+    spawnOffset: {x: 10, y: -8}
+    squadPlan: {fileID: 11400000, guid: 8e7b196aefc177efac963140f8a25b90, type: 2}
+  - label: Missiles L
+    spawnOffset: {x: -20, y: -14}
+    squadPlan: {fileID: 11400000, guid: 1815c32e9f16e812fd18e18c8691e381, type: 2}
+  - label: Missiles R
+    spawnOffset: {x: 20, y: -14}
+    squadPlan: {fileID: 11400000, guid: 1815c32e9f16e812fd18e18c8691e381, type: 2}
+  - label: Support
+    spawnOffset: {x: 0, y: -16}
+    squadPlan: {fileID: 11400000, guid: fa48affdd2198f276aef7cf582b2e2e7, type: 2}

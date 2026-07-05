@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiSiegeWave
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 2
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 55.0
+  leashDistance: 70.0
+  chaseDistance: 80.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Railguns L
+    spawnOffset: {x: -14, y: -8}
+    squadPlan: {fileID: 11400000, guid: 4fb832decb73b9ee0610dbc78bd1dcfd, type: 2}
+  - label: Railguns R
+    spawnOffset: {x: 14, y: -8}
+    squadPlan: {fileID: 11400000, guid: 4fb832decb73b9ee0610dbc78bd1dcfd, type: 2}
+  - label: Volley
+    spawnOffset: {x: 0, y: -6}
+    squadPlan: {fileID: 11400000, guid: 5e20bd38ec8f40e495b5188ae737bec8, type: 2}
+  - label: Tank Screen
+    spawnOffset: {x: 0, y: 4}
+    squadPlan: {fileID: 11400000, guid: acfc4fae5e414ff1a522c046ddce3f02, type: 2}
+  - label: Healers
+    spawnOffset: {x: 0, y: -12}
+    squadPlan: {fileID: 11400000, guid: eed390d745d5fa997446573c968c30c7, type: 2}

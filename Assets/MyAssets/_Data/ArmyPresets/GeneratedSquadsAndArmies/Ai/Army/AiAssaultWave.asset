@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: AiAssaultWave
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 1
+  armyRole: 1
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 60.0
+  chaseDistance: 70.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 25.0
+  squads:
+  - label: Tank Wall
+    spawnOffset: {x: 0, y: 6}
+    squadPlan: {fileID: 11400000, guid: acfc4fae5e414ff1a522c046ddce3f02, type: 2}
+  - label: Bombers L
+    spawnOffset: {x: -10, y: -2}
+    squadPlan: {fileID: 11400000, guid: 959f8d53780c53d46a12391545aae2d7, type: 2}
+  - label: Bombers R
+    spawnOffset: {x: 10, y: -2}
+    squadPlan: {fileID: 11400000, guid: 959f8d53780c53d46a12391545aae2d7, type: 2}
+  - label: Healers
+    spawnOffset: {x: 0, y: -8}
+    squadPlan: {fileID: 11400000, guid: eed390d745d5fa997446573c968c30c7, type: 2}

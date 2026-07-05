@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04fb51cb8408f9e438d8dc9cf3292cdf, type: 3}
+  m_Name: FlakCannon
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponProfileSO
+  requestKind: 0
+  firePattern: 2
+  payloadKind: 1
+  statusEffectKind: 0
+  reloadTime: 0.6
+  attackDistance: 22
+  damageAmount: 15
+  projectileSpeed: 15
+  lifetime: 2
+  rotate: 1
+  limitRotation: 0
+  rotationLimitAngle: 45
+  allowedTargets: 7
+  priorityTargets: 1
+  burstInterval: 0
+  spreadAngle: 1
+  splashRadius: 2.5
+  statusDuration: 0
+  moveSpeedMultiplier: 1
+  accelerationMultiplier: 1
+  disableWeapons: 0
+  rocketAcceleration: 0
+  turnAfterLaunch: 1
+  rocketLaunchScatterAngle: 0
+  rocketLaunchScatterDuration: 0
+  rocketLaunchScatterDistance: 0
+  hitscanBeamWidth: 1

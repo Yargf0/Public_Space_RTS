@@ -1,0 +1,31 @@
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+Build/
+Builds/
+ProfilerCaptures/
+ProfileAnalyzer/
+*.csproj
+*.sln
+*.slnx
+
+# IDE
+.vs/
+.idea/
+
+# Third-party asset packs, not in the repo (see README)
+Assets/NotMy/GameInputControllerIconsFree/
+Assets/NotMy/GameInputControllerIconsFree.meta
+Assets/NotMy/SpaceBackground/
+Assets/NotMy/SpaceBackground.meta
+Assets/NotMy/Packages/
+Assets/NotMy/Packages.meta
+
+# Unity caches
+Assets/SceneDependencyCache/
+Assets/SceneDependencyCache.meta
+Assets/NotMy/SceneDependencyCache/
+Assets/NotMy/SceneDepe

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerStartArmy
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40
+  leashDistance: 50
+  chaseDistance: 60
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8
+  guardRadius: 25
+  squads:
+  - label: 
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: b3b95b627fcc9eb45b3859d646c0eade, type: 2}
+  - label: 
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: b3b95b627fcc9eb45b3859d646c0eade, type: 2}
+  - label: 
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: b3b95b627fcc9eb45b3859d646c0eade, type: 2}

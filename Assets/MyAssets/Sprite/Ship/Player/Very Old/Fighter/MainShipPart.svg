@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123.24 61.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="MainBodyPart">
+    <polygon class="cls-1" points="2.16 59.39 1.9 61.54 0 61.54 2.16 59.39"/>
+    <polygon class="cls-1" points="123.24 61.8 29.87 61.6 29.66 61.6 1.9 61.54 2.16 59.39 34.71 26.98 34.79 26.9 61.76 .05 87.16 25.56 121.26 59.81 123.24 61.8"/>
+    <line class="cls-1" x1="1.9" y1="61.54" x2="1.86" y2="61.84"/>
+    <polyline class="cls-1" points="2.16 59.39 9.42 .36 34.79 26.9"/>
+    <polyline class="cls-1" points="87.16 25.56 112.01 0 121.26 59.81 121.38 60.61"/>
+  </g>
+</svg>

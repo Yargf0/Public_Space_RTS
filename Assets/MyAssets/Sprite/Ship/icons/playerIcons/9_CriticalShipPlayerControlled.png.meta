@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: f6868d97acd2e5444b65f1d748370de1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3624961547439224232
+    second: 9_CriticalShipPlayerControlled_0
+  - first:
+      213: 3968202387223658290
+    second: 9_CriticalShipPlayerControlled_1
+  - first:
+      213: -6064990589874944424
+    second: 9_CriticalShipPlayerControlled_2
+  - first:
+      213: 1637481291494864947
+    second: 9_CriticalShipPlayerControlled_3
+  - first:
+      213: -2792439929036101707
+    second: 9_CriticalShipPlayerControlled_4
+  - first:
+      213: -5168400796601984615
+    second: 9_CriticalShipPlayerControlled_5
+  - first:
+      213: 5982331279350054242
+    second: 9_CriticalShipPlayerControlled_6
+  - first:
+      213: -2541896510267595632
+    second: 9_CriticalShipPlayerControlled_7
+  - first:
+      213: 661162303310192652
+    second: 9_CriticalShipPlayerControlled_8
+  - first:
+      213: 3996607235762401279
+    second: 9_CriticalShipPlayerControlled_9
+  - first:
+      213: 2036581389265894705
+    second: 9_CriticalShipPlayerControlled_10
+  - first:
+      213: 9134398338345178300
+    second: 9_CriticalShipPlayerControlled_11
+  - first:
+      213: 6358916829823263800
+    second: 9_CriticalShipPlayerControlled_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 983
+        width: 724
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a4f60bdac81bdc0800000000000000
+      internalID: -3624961547439224232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 834
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fb257fb03e11730800000000000000
+      internalID: 3968202387223658290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 967
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856ca643133d4dba0800000000000000
+      internalID: -6064990589874944424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 967
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33836e11f8089b610800000000000000
+      internalID: 1637481291494864947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 763
+        width: 16
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7af25fda24f39d0800000000000000
+      internalID: -2792439929036101707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 900
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99951bddbd62648b0800000000000000
+      internalID: -5168400796601984615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_6
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 905
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d3e525a92850350800000000000000
+      internalID: 5982331279350054242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 763
+        width: 16
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e1b9679e59bcd0800000000000000
+      internalID: -2541896510267595632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 701
+        width: 16
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00eea3ac9bec2900800000000000000
+      internalID: 661162303310192652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_9
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 701
+        width: 16
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffaf522b1dc67730800000000000000
+      internalID: 3996607235762401279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 41
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d7d57bbf3634c10800000000000000
+      internalID: 2036581389265894705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 25
+        width: 161
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb49bf184e6e3ce70800000000000000
+      internalID: 9134398338345178300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_CriticalShipPlayerControlled_12
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 41
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8346edd6a296f3850800000000000000
+      internalID: 6358916829823263800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      9_CriticalShipPlayerControlled_0: -3624961547439224232
+      9_CriticalShipPlayerControlled_1: 3968202387223658290
+      9_CriticalShipPlayerControlled_10: 2036581389265894705
+      9_CriticalShipPlayerControlled_11: 9134398338345178300
+      9_CriticalShipPlayerControlled_12: 6358916829823263800
+      9_CriticalShipPlayerControlled_2: -6064990589874944424
+      9_CriticalShipPlayerControlled_3: 1637481291494864947
+      9_CriticalShipPlayerControlled_4: -2792439929036101707
+      9_CriticalShipPlayerControlled_5: -5168400796601984615
+      9_CriticalShipPlayerControlled_6: 5982331279350054242
+      9_CriticalShipPlayerControlled_7: -2541896510267595632
+      9_CriticalShipPlayerControlled_8: 661162303310192652
+      9_CriticalShipPlayerControlled_9: 3996607235762401279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

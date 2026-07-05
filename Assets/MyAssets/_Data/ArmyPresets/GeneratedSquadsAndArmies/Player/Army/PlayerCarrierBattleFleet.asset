@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerCarrierBattleFleet
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 1
+  initialFireMode: 0
+  searchRange: 40.0
+  leashDistance: 50.0
+  chaseDistance: 60.0
+  targetSearchInterval: 0.35
+  targetMemoryDuration: 1.25
+  regroupRadius: 8.0
+  guardRadius: 35.0
+  squads:
+  - label: Carrier
+    spawnOffset: {x: 0, y: 0}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Frigates L
+    spawnOffset: {x: -14, y: -2}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Frigates R
+    spawnOffset: {x: 14, y: -2}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Patrol
+    spawnOffset: {x: 0, y: 10}
+    squadPlan: {fileID: 11400000, guid: c720f271bdee45176108bd0e0d4d2273, type: 2}
+  - label: Support
+    spawnOffset: {x: 0, y: -10}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}

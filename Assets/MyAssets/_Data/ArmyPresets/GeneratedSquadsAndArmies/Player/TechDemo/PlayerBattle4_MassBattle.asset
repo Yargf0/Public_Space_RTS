@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c9ec6b257cc5f49bf50a9c0b5acfb1, type: 3}
+  m_Name: PlayerBattle4_MassBattle
+  m_EditorClassIdentifier: Assembly-CSharp::ArmyPlan
+  faction: 0
+  armyRole: 0
+  initialState: 1
+  initialMoveMode: 2
+  initialFireMode: 0
+  searchRange: 50.0
+  leashDistance: 75.0
+  chaseDistance: 95.0
+  targetSearchInterval: 0.45
+  targetMemoryDuration: 1.75
+  regroupRadius: 11.0
+  guardRadius: 35.0
+  squads:
+  - label: Far Swarm 1
+    spawnOffset: {x: -52.8, y: -70.4}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 2
+    spawnOffset: {x: -34.8, y: -69.6}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 3
+    spawnOffset: {x: -16.8, y: -70.8}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 4
+    spawnOffset: {x: 1.2000000000000002, y: -70.0}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 5
+    spawnOffset: {x: 19.2, y: -69.2}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 6
+    spawnOffset: {x: 37.2, y: -70.4}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 7
+    spawnOffset: {x: 55.2, y: -69.6}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 8
+    spawnOffset: {x: -54.4, y: -59.2}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 9
+    spawnOffset: {x: -36.4, y: -60.4}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 10
+    spawnOffset: {x: -18.4, y: -59.6}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 11
+    spawnOffset: {x: -0.4, y: -60.8}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 12
+    spawnOffset: {x: 17.6, y: -60.0}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 13
+    spawnOffset: {x: 35.6, y: -59.2}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Far Swarm 14
+    spawnOffset: {x: 53.6, y: -60.4}
+    squadPlan: {fileID: 11400000, guid: 0c58ee61294b5c2cc19444b493371274, type: 2}
+  - label: Vanguard Int 1
+    spawnOffset: {x: -71.2, y: -50.0}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 2
+    spawnOffset: {x: -51.2, y: -49.2}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 3
+    spawnOffset: {x: -31.2, y: -50.4}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 4
+    spawnOffset: {x: -11.2, y: -49.6}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 5
+    spawnOffset: {x: 8.8, y: -50.8}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 6
+    spawnOffset: {x: 28.8, y: -50.0}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 7
+    spawnOffset: {x: 48.8, y: -49.2}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Int 8
+    spawnOffset: {x: 68.8, y: -50.4}
+    squadPlan: {fileID: 11400000, guid: 5c16fa319ee493f8d334415822f9887e, type: 2}
+  - label: Vanguard Ftr 1
+    spawnOffset: {x: -60.8, y: -39.6}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 2
+    spawnOffset: {x: -40.8, y: -40.8}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 3
+    spawnOffset: {x: -20.8, y: -40.0}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 4
+    spawnOffset: {x: -0.8, y: -39.2}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 5
+    spawnOffset: {x: 19.2, y: -40.4}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 6
+    spawnOffset: {x: 39.2, y: -39.6}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Vanguard Ftr 7
+    spawnOffset: {x: 59.2, y: -40.8}
+    squadPlan: {fileID: 11400000, guid: 5bd06bf10aef0b60df4a653137e1272f, type: 2}
+  - label: Corvette 1
+    spawnOffset: {x: -55.4, y: -14.2}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 2
+    spawnOffset: {x: -33.4, y: -15.4}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 3
+    spawnOffset: {x: -11.4, y: -14.6}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 4
+    spawnOffset: {x: 10.6, y: -15.8}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 5
+    spawnOffset: {x: 32.6, y: -15.0}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Corvette 6
+    spawnOffset: {x: 54.6, y: -14.2}
+    squadPlan: {fileID: 11400000, guid: 91bea361793bd1999029d53ddd508a3c, type: 2}
+  - label: Missile 1
+    spawnOffset: {x: -52.0, y: -5.8}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 2
+    spawnOffset: {x: -26.0, y: -5.0}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 3
+    spawnOffset: {x: 0.0, y: -4.2}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 4
+    spawnOffset: {x: 26.0, y: -5.4}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Missile 5
+    spawnOffset: {x: 52.0, y: -4.6}
+    squadPlan: {fileID: 11400000, guid: 3bf2db2e02260f7537326890e7be66fc, type: 2}
+  - label: Bomber 1
+    spawnOffset: {x: -51.6, y: 9.6}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Bomber 2
+    spawnOffset: {x: -25.6, y: 10.4}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Bomber 3
+    spawnOffset: {x: 0.4, y: 9.2}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Bomber 4
+    spawnOffset: {x: 26.4, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Bomber 5
+    spawnOffset: {x: 52.4, y: 10.8}
+    squadPlan: {fileID: 11400000, guid: 6b988d0900ce2fce3e9e942968be3c31, type: 2}
+  - label: Laser 1
+    spawnOffset: {x: -51.2, y: 25.0}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 2
+    spawnOffset: {x: -25.2, y: 25.8}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 3
+    spawnOffset: {x: 0.8, y: 24.6}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 4
+    spawnOffset: {x: 26.8, y: 25.4}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Laser 5
+    spawnOffset: {x: 52.8, y: 24.2}
+    squadPlan: {fileID: 11400000, guid: c8e2880e2e4a90814e691263cefce6af, type: 2}
+  - label: Artillery 1
+    spawnOffset: {x: -43.8, y: 40.4}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Artillery 2
+    spawnOffset: {x: -13.8, y: 39.2}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Artillery 3
+    spawnOffset: {x: 16.2, y: 40.0}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Artillery 4
+    spawnOffset: {x: 46.2, y: 40.8}
+    squadPlan: {fileID: 11400000, guid: 3ea20254e837f3bdc1b5b562c2b0a37d, type: 2}
+  - label: Carrier 1
+    spawnOffset: {x: -33.2, y: 55.8}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Carrier 2
+    spawnOffset: {x: -1.2000000000000002, y: 54.6}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Carrier 3
+    spawnOffset: {x: 30.8, y: 55.4}
+    squadPlan: {fileID: 11400000, guid: ba63c36f7e947bc4663d208a8f6eea28, type: 2}
+  - label: Support 1
+    spawnOffset: {x: -44.8, y: 9.2}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 2
+    spawnOffset: {x: -22.8, y: 10.0}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 3
+    spawnOffset: {x: -0.8, y: 10.8}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 4
+    spawnOffset: {x: 21.2, y: 9.6}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 5
+    spawnOffset: {x: 43.2, y: 10.4}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 6
+    spawnOffset: {x: -43.6, y: 28.4}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 7
+    spawnOffset: {x: -21.6, y: 27.2}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 8
+    spawnOffset: {x: 0.4, y: 28.0}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 9
+    spawnOffset: {x: 22.4, y: 28.8}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Support 10
+    spawnOffset: {x: 44.4, y: 27.6}
+    squadPlan: {fileID: 11400000, guid: 333f294a376c2040a71c7ab5282d50c0, type: 2}
+  - label: Flank L 1
+    spawnOffset: {x: -90, y: -50}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 2
+    spawnOffset: {x: -90, y: -36}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 3
+    spawnOffset: {x: -90, y: -22}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 4
+    spawnOffset: {x: -90, y: -8}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 5
+    spawnOffset: {x: -90, y: 6}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank L 6
+    spawnOffset: {x: -90, y: 20}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 1
+    spawnOffset: {x: 90, y: -50}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 2
+    spawnOffset: {x: 90, y: -36}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 3
+    spawnOffset: {x: 90, y: -22}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 4
+    spawnOffset: {x: 90, y: -8}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 5
+    spawnOffset: {x: 90, y: 6}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Flank R 6
+    spawnOffset: {x: 90, y: 20}
+    squadPlan: {fileID: 11400000, guid: 1361629b4a8ef9c2b15be3c74c4cbaac, type: 2}
+  - label: Far Flank L 1
+    spawnOffset: {x: -110, y: -25}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank L 2
+    spawnOffset: {x: -110, y: -13}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank L 3
+    spawnOffset: {x: -110, y: -1}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank L 4
+    spawnOffset: {x: -110, y: 11}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank R 1
+    spawnOffset: {x: 110, y: -25}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank R 2
+    spawnOffset: {x: 110, y: -13}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank R 3
+    spawnOffset: {x: 110, y: -1}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Far Flank R 4
+    spawnOffset: {x: 110, y: 11}
+    squadPlan: {fileID: 11400000, guid: 4317dfb8b231f3e7544d25d958de5147, type: 2}
+  - label: Flagship 1
+    spawnOffset: {x: 0, y: 70}
+    squadPlan: {fileID: 11400000, guid: 6fe63f3e9e5b23375f5a692278dfe2a7, type: 2}

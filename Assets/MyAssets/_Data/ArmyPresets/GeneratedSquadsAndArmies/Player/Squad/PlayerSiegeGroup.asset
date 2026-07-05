@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0303a84ff6816ad47834e3796dcfc0bd, type: 3}
+  m_Name: PlayerSiegeGroup
+  m_EditorClassIdentifier: Assembly-CSharp::SquadPlan
+  label: Siege Group
+  role: 1
+  targeting:
+    allowedShipSizes: 4
+    priorities:
+      small: 0.0
+      medium: 1.0
+      big: 4.0
+      rocketSmall: 0.0
+      rocketBig: 0.0
+  composition:
+  - prefabId: PlayerArtileryLincore
+    prefab: {fileID: 3372544179987758199, guid: 493329650f647c6458dada112d6a0b36, type: 3}
+    count: 2
+    memberPrefabIndex: 0
+  - prefabId: PlayerLaserFrigate
+    prefab: {fileID: 3372544179987758199, guid: c208469693f132c479e6e6d64c5a5572, type: 3}
+    count: 2
+    memberPrefabIndex: 1
+  - prefabId: PlayerSupportFrigate
+    prefab: {fileID: 3372544179987758199, guid: 6c43290cbe1fbcd468faf88c8fb2f698, type: 3}
+    count: 1
+    memberPrefabIndex: 2
