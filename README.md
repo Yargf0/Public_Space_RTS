@@ -151,4 +151,27 @@ UI gets state through snapshots. `UiSelectionQueryUtility` walks the selection o
 
 ### Design notes
 
-- Timers store an absolute timestamp instead of counting down. A countdown writes the component every frame, which marks the chun
+- Timers store an absolute timestamp instead of counting down. A countdown writes the component every frame, which marks the chunk as changed and breaks change filtering for every system after. Same reason for all the `Write...IfChanged` helpers: don't write if the value didn't change.
+- Any heavy work has a per-frame budget or is staggered by entity hash: flow field builds, turret scans, boids, avoidance, turret aiming. A couple frames of delay is not noticeable.
+- Pooling instead of Instantiate/Destroy: structural changes create sync points and move entities between chunks. Thousands of bullets per second would mean constant sync points. Enabling/disabling `BulletActive` is not a structural change.
+- Flow field instead of A*: many units, few unique targets, so one field per group is much cheaper than a path per ship.
+
+## Folders
+
+- `_Script/ECS/Core` - shared components, enums, constants, grid math
+- `_Script/ECS/Commands` - per-ship command queue
+- `_Script/ECS/Squads` - squads, formations, squad command queue
+- `_Script/ECS/Strategy` - strike groups (hotkey groups), orders, stances
+- `_Script/ECS/Movement` - flow field, boids, avoidance, velocity
+- `_Script/ECS/Combat` - targeting, weapons, projectiles, pooling, health
+- `_Script/ECS/Vision` - fog of war, searchlights, spatial hash
+- `_Script/ECS/Carrier` - carrier squadrons, hangar, recall
+- `_Script/ECS/Resources` - asteroids, harvesters, energy
+- `_Script/ECS/Mission` - mission scripting and triggers
+- `_Script/Runtime` - input, selection, camera (MonoBehaviour side)
+- `_Script/UI` - UI reads ECS state and sends commands, no game logic in UI
+- `_Script/Debug`, `_Script/Demo` - debug draw, AI demo scenes, army presets
+
+## License
+
+Code in `Assets/MyAssets` is under the [MIT License](LICENSE). `Assets/NotMy` contains third-party packages and assets that keep their own licenses.
